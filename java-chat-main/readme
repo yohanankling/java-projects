@@ -1,11 +1,11 @@
 This is a chat project where you can run a server from cmd, add some clients and just talk!
 work on tcp,
-can send in broadcast and private, without a gui, in python i have the same with a gui, and in android its a whole another level!
+can send in broadcast and private, this version is without a gui, in pythonprojects repository you can see the same with a gui, and in android its a whole another level!
 to send brodcast: "/broadcast bla bla bla"
 to send in private just type theuser name and message: (example):
 yohanan hi!
 # enjoy the project!
 screenshots:
-![Screenshot](chat1.png)   ![Screenshot2](java-chat-main/chat2.png)
+<img width="960" alt="chat1" src="https://user-images.githubusercontent.com/93263233/223707396-1daba2ac-8392-4848-a8a6-14db003a5fe1.png">
 
 
