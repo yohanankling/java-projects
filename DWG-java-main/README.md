@@ -36,3 +36,12 @@ You can use graphic program that show you the graph and demonstrate it.
 You can save or load graphs in the menu in the button "SAVE\LOAD".
 You can edit the grpah nodes and edges on pressing the "GRAPH" button.
 And you can use our algorithm under the button "ALGORITHM". 
+
+# Screenshots:
+![graph](https://user-images.githubusercontent.com/93263233/223714571-1538201e-ec5e-4d26-8163-8d1aebf30a9f.png)
+![shortpath](https://user-images.githubusercontent.com/93263233/223714685-ed2cdd93-9770-4170-ac21-8f6f8e8312f3.png)
+![graph3](https://user-images.githubusercontent.com/93263233/223714808-5d61bf76-7b07-4604-b6ba-e777f56681ed.png)
+![g4](https://user-images.githubusercontent.com/93263233/223715019-fd26bd3e-5ab4-4ee5-8bc1-4838e9200738.png)
+
+
+
