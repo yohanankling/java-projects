@@ -1,7 +1,7 @@
-this is a chat project where you can run a server from cmd, add some clients and just talk!
+This is a chat project where you can run a server from cmd, add some clients and just talk!
 work on tcp,
 can send in broadcast and private, without a gui, in python i have the same with a gui, and in android its a whole another level!
 to send brodcast: "/broadcast bla bla bla"
 to send in private just type theuser name and message: (example):
 yohanan hi!
-enjoy the project!
+# enjoy the project!
