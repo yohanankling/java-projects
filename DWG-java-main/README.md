@@ -1,47 +1,48 @@
-# oop_Ex2
-# Assignment of oop_Ex2
-https://docs.google.com/document/d/17h5VGIHtqWHrzgoRjH05_PjHgCn8-EDcecrkR9sVChQ/edit
-# Directed Weighted Graph
-In this project we wrote a code for getting graphs from json file and save them after implementing some functions.
+# oop_Ex2 - Directed Weighted Graph
 
-Features of our algorithm :
-- Reading graphs from json file.
-- Checking if the graph is storngly connected.
-- Checking what is the shortest path from first node to last node.
-- Giving the shortest path from src node to dest node (with nodes which in the 'road').
-- Saving the graph after calculation it with some algorithms to make it more efficient. 
-- Checking tsp(with Hemilton Circle).
-- Calculation the center of the graph (the most close node to the all other nodes).
-- Showing the graph in gui window with some menu options.
+## Overview
+This project implements a directed weighted graph and provides various functionalities related to graph manipulation and analysis. The main features of the algorithm include:
 
-In this code we used Dijkstra Algorithm to find if the graph is connected and get the shortest path.
+- Reading graphs from JSON files.
+- Checking if the graph is strongly connected.
+- Calculating the shortest path between nodes using Dijkstra's Algorithm.
+- Saving the graph after applying certain algorithms to enhance its efficiency.
+- Checking the Traveling Salesman Problem (TSP) with a Hamiltonian Circle.
+- Calculating the center of the graph, which is the node closest to all other nodes.
+- Displaying the graph in a graphical user interface (GUI) window with additional menu options.
 
-# Code's running:
-For run the code you can download the jar from Ex2/Ex2.jar. Then, you will find 4 files: 1 jar and 3 json files.
-You need to run in cmd the code "java -jar Ex2.jar G2.json" (G2.json as an example).
-You have 3 json file for example and for sure you can load json files as you want in the same formate.
-You can also add nodes and edges or remove some as you want in the code and use our base for graph like "G1.json" that we loaded as deafult.
-For that you can enter in the cmd window the next code  - "java -jar Ex2.jar" and the program will show you a gruph (G1) as deafult.
-You can download our projact and enjoy the feautre as we mention before.
+## Running the Code
+To run the code, download the "Ex2.jar" file and three JSON files provided. Execute the following command in the command prompt:
 
-# Test:
-we implemented some tests on our classes in the project. You can use or see them as you want.
+```
+java -jar Ex2.jar G2.json
+```
 
-Our function "shortestPathDist" to calculate the shortest path from source node to another is still on working progress, so it is not gourenting to work and the all other algorithms use that function to calculate, so they also in devlopment level.
-That why we didn't add yet a report and a result for running time on big graphs like 10000,100000 and so on....
-Tzach and Yohanan - the devlopment team of the project.
+You can replace "G2.json" with any other JSON file in the same format as needed. Additionally, you have the option to add, remove, or modify nodes and edges within the code by running:
 
-# Gui:
-You can use graphic program that show you the graph and demonstrate it.
-You can save or load graphs in the menu in the button "SAVE\LOAD".
-You can edit the grpah nodes and edges on pressing the "GRAPH" button.
-And you can use our algorithm under the button "ALGORITHM". 
+```
+java -jar Ex2.jar
+```
 
-# Screenshots:
-![graph](https://user-images.githubusercontent.com/93263233/223714571-1538201e-ec5e-4d26-8163-8d1aebf30a9f.png)
-![shortpath](https://user-images.githubusercontent.com/93263233/223714685-ed2cdd93-9770-4170-ac21-8f6f8e8312f3.png)
-![graph3](https://user-images.githubusercontent.com/93263233/223714808-5d61bf76-7b07-4604-b6ba-e777f56681ed.png)
-![g4](https://user-images.githubusercontent.com/93263233/223715019-fd26bd3e-5ab4-4ee5-8bc1-4838e9200738.png)
+This will show the default graph "G1.json" as a starting point.
 
+## Tests
+The project includes some tests on the classes, which can be utilized for validation or reference.
 
+## Work in Progress
+Please note that the "shortestPathDist" function, used to calculate the shortest path between nodes, is still a work in progress and might not function correctly. As a result, the other algorithms that depend on it are also under development. Due to this ongoing development, a report and results for running time on large graphs (e.g., 10000, 100000 nodes) have not been provided yet.
 
+Development Team:
+- Tzach
+- Yohanan
+
+## GUI
+The graphical program allows you to visualize and manipulate the graph. You can save or load graphs using the "SAVE\LOAD" button in the menu. To edit the graph's nodes and edges, press the "GRAPH" button, and to utilize the algorithms, use the "ALGORITHM" button.
+
+## Screenshots
+![Graph](https://user-images.githubusercontent.com/93263233/223714571-1538201e-ec5e-4d26-8163-8d1aebf30a9f.png)
+![Shortest Path](https://user-images.githubusercontent.com/93263233/223714685-ed2cdd93-9770-4170-ac21-8f6f8e8312f3.png)
+![Graph 3](https://user-images.githubusercontent.com/93263233/223714808-5d61bf76-7b07-4604-b6ba-e777f56681ed.png)
+![Graph 4](https://user-images.githubusercontent.com/93263233/223715019-fd26bd3e-5ab4-4ee5-8bc1-4838e9200738.png)
+
+Feel free to explore the project, use the GUI for graph visualization, and contribute to the ongoing development of the algorithms. Enjoy the features and functionalities provided by the project!
